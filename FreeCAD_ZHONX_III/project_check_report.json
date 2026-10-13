@@ -1,0 +1,727 @@
+{
+  "documents": [
+    {
+      "file": "pieces/Chassis/Carte_Capteurs_Bas.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Chassis/Carte_Capteurs_Haut.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Chassis/Mere_old/Platine_Mere.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Chassis/Platine_Mere.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Chassis/Platine_Superieure.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capot_Capteurs_Distance.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capteurs_Distance.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capteurs_Distance_V2/SFH4545.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capteurs_Distance_V2/TEFT4300.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Connecteur_Moteur.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Connecteurs/Barette_Connection.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/Lipo_210mAh_30x20x5.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/M2x3,5.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/SFH4545.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/SSD1306.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/TEFT4300.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Composants/TrackBall.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Roue/Jante.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Roue/M0,4_50dents.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Roue/M0,4_50dents_J2.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Roue/Pneu.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Roue/Roulement.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/1717TSR.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Axe_Roue.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Entretoise_Droite.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Entretoise_Gauche.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Intercalaire_Droit.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Intercalaire_Gauche - Copie.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/M0,4_15dents.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Support_Essieu.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "pieces/Transmission/Tige_Renfort.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/MMT-106-01-X-DH.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/MMT-110-02-X-DH.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/TMS-106-03-X-S-RA.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/c-1734507-6-b-3d.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Connecteurs/c-1734606-6-b-3d.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/SQT-104-01-X-D-RA.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Composants/Support_SD-card.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "composants_importes/Transmission/Ecrou_M2.FCStd",
+      "bodies": 1,
+      "links": 0,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Assemblage_Final/Assemblage_Final.FCStd",
+      "bodies": 19,
+      "links": 49,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Chassis/Assemblage_Platine_Superieure.FCStd",
+      "bodies": 4,
+      "links": 6,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Composants/Capteur_Distance.FCStd",
+      "bodies": 5,
+      "links": 5,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Composants/Capteurs_Distance_V2/Assemblage_Capteur_Distance_V2.FCStd",
+      "bodies": 4,
+      "links": 4,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Composants/Connecteurs/MMS-104-02-X-DH.FCStd",
+      "bodies": 3,
+      "links": 9,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Roue/Assemblage_roue/Roue.FCStd",
+      "bodies": 4,
+      "links": 5,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Roue/Assemblage_roue/Roue_eclate.FCStd",
+      "bodies": 4,
+      "links": 5,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Bloc_Transmission.FCStd",
+      "bodies": 15,
+      "links": 50,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Bloc_Transmission_Eclate.FCStd",
+      "bodies": 15,
+      "links": 50,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Droite.FCStd",
+      "bodies": 10,
+      "links": 19,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Droite_Eclate.FCStd",
+      "bodies": 10,
+      "links": 19,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Gauche.FCStd",
+      "bodies": 10,
+      "links": 19,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "assemblages/Transmission/Assemblages_Transmission/Zhonx_III_Assemblage_Final.FCStd",
+      "bodies": 25,
+      "links": 81,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    },
+    {
+      "file": "ZHONX_III.FCStd",
+      "bodies": 25,
+      "links": 81,
+      "errors": [],
+      "invalid_shapes": [],
+      "external_or_broken_links": [],
+      "accepted": true
+    }
+  ],
+  "edit_checks": [
+    {
+      "parameter": "thickness",
+      "file": "pieces/Chassis/Platine_Superieure.FCStd",
+      "before_volume": 1007.0002074152773,
+      "after_volume": 1107.7002281568055,
+      "valid": true,
+      "errors": [],
+      "accepted": true
+    },
+    {
+      "parameter": "radius",
+      "file": "pieces/Chassis/Platine_Superieure.FCStd",
+      "before_volume": 1007.0002074152773,
+      "after_volume": 1006.9138136173983,
+      "valid": true,
+      "errors": [],
+      "accepted": true
+    }
+  ],
+  "reference_checks": [
+    {
+      "file": "references_step/Chassis/Carte_Capteurs_Bas.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Chassis/Carte_Capteurs_Haut.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Chassis/Mere_old/Platine_Mere.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Chassis/Platine_Mere.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Chassis/Platine_Superieure.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capot_Capteurs_Distance.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capteurs_Distance.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capteurs_Distance_V2/SFH4545.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capteurs_Distance_V2/TEFT4300.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteur_Moteur.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/Barette_Connection.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/MMT-106-01-X-DH.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/MMT-110-02-X-DH.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/TMS-106-03-X-S-RA.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/c-1734507-6-b-3d.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Connecteurs/c-1734606-6-b-3d.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Lipo_210mAh_30x20x5.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/M2x3,5.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/SFH4545.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/SQT-104-01-X-D-RA.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/SSD1306.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/Support_SD-card.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/TEFT4300.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Composants/TrackBall.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Roue/Jante.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Roue/M0,4_50dents.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Roue/M0,4_50dents_J2.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Roue/Pneu.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Roue/Roulement.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/1717TSR.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Axe_Roue.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Ecrou_M2.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Entretoise_Droite.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Entretoise_Gauche.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Intercalaire_Droit.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Intercalaire_Gauche - Copie.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/M0,4_15dents.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Support_Essieu.step",
+      "unchanged": true
+    },
+    {
+      "file": "references_step/Transmission/Tige_Renfort.step",
+      "unchanged": true
+    }
+  ],
+  "source_checks": [],
+  "source_checks_requested": false,
+  "accepted": true
+}

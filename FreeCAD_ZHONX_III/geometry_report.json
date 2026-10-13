@@ -1,0 +1,824 @@
+[
+  {
+    "path": "references_step/Chassis/Carte_Capteurs_Bas.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 780.7609032748861,
+    "bounds": [
+      -60.01297547342281,
+      -30.770194444761508,
+      -21.986748022275403,
+      48.01325197774722,
+      0.0,
+      1.0
+    ],
+    "surfaces": {
+      "Plane": 17,
+      "SurfaceOfExtrusion": 6,
+      "Cylinder": 15
+    }
+  },
+  {
+    "path": "references_step/Chassis/Carte_Capteurs_Haut.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 489.6374955144934,
+    "bounds": [
+      -60.01297547369615,
+      -32.48999686098634,
+      -21.374357505768952,
+      47.400861461455804,
+      0.0,
+      1.0
+    ],
+    "surfaces": {
+      "Plane": 22,
+      "SurfaceOfExtrusion": 8,
+      "Cylinder": 31
+    }
+  },
+  {
+    "path": "references_step/Chassis/Mere_old/Platine_Mere.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 4916.123298824093,
+    "bounds": [
+      -60.01297547371085,
+      32.98702452628918,
+      -21.99108624919597,
+      48.017590204667776,
+      -6.5,
+      1.0000000000000018
+    ],
+    "surfaces": {
+      "Plane": 54,
+      "SurfaceOfExtrusion": 8,
+      "Cylinder": 94
+    }
+  },
+  {
+    "path": "references_step/Chassis/Platine_Mere.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 4017.531011159693,
+    "bounds": [
+      -64.01297547371094,
+      32.98702452628918,
+      -21.99108624919597,
+      48.017590204667776,
+      -6.5,
+      1.0000000000000018
+    ],
+    "surfaces": {
+      "Plane": 87,
+      "SurfaceOfExtrusion": 12,
+      "Cylinder": 56
+    }
+  },
+  {
+    "path": "references_step/Chassis/Platine_Superieure.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 1007.0002074152771,
+    "bounds": [
+      9.987024526289195,
+      33.48702452628919,
+      -14.986748022264136,
+      41.01325197773592,
+      0.0,
+      1.0
+    ],
+    "surfaces": {
+      "SurfaceOfExtrusion": 4,
+      "Plane": 18,
+      "Cylinder": 22
+    }
+  },
+  {
+    "path": "references_step/Composants/Capot_Capteurs_Distance.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 43.954888391167415,
+    "bounds": [
+      -3.3,
+      3.3,
+      -3.0000000000000004,
+      8.3,
+      0.0,
+      2.0000000000000004
+    ],
+    "surfaces": {
+      "Cylinder": 9,
+      "SurfaceOfExtrusion": 6,
+      "Plane": 8
+    }
+  },
+  {
+    "path": "references_step/Composants/Capteurs_Distance.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 50.16753053575943,
+    "bounds": [
+      -3.3000000000000007,
+      3.3000000000000007,
+      -3.0,
+      8.3,
+      0.0,
+      1.0
+    ],
+    "surfaces": {
+      "Plane": 5,
+      "Cylinder": 11
+    }
+  },
+  {
+    "path": "references_step/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 50.16753053575943,
+    "bounds": [
+      -3.3000000000000007,
+      3.3000000000000007,
+      -3.0,
+      8.3,
+      0.0,
+      1.0
+    ],
+    "surfaces": {
+      "Plane": 5,
+      "Cylinder": 11
+    }
+  },
+  {
+    "path": "references_step/Composants/Capteurs_Distance_V2/SFH4545.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 154.3741580073482,
+    "bounds": [
+      -2.8499999999999996,
+      2.5,
+      -2.8499999999999996,
+      2.8499999999999996,
+      -4.440892098500626e-16,
+      10.3
+    ],
+    "surfaces": {
+      "Plane": 13,
+      "Cylinder": 2,
+      "Sphere": 1
+    }
+  },
+  {
+    "path": "references_step/Composants/Capteurs_Distance_V2/TEFT4300.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 33.051058930131525,
+    "bounds": [
+      -1.600000000000001,
+      1.6000000000000005,
+      -1.95,
+      1.95,
+      0.0,
+      6.500000000000001
+    ],
+    "surfaces": {
+      "Plane": 14,
+      "Cylinder": 3,
+      "Sphere": 1
+    }
+  },
+  {
+    "path": "references_step/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 123.81818188885038,
+    "bounds": [
+      -3.3000000000000007,
+      3.3000000000000007,
+      -2.3,
+      8.3,
+      0.0,
+      6.0
+    ],
+    "surfaces": {
+      "Plane": 4,
+      "Cylinder": 8
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteur_Moteur.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 308.75,
+    "bounds": [
+      -4.2500000000000036,
+      5.2499999999999964,
+      -2.5000000000000004,
+      2.5000000000000004,
+      0.0,
+      6.5
+    ],
+    "surfaces": {
+      "Plane": 6
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/Barette_Connection.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 208.6360471767203,
+    "bounds": [
+      -3.0,
+      3.0,
+      -3.3,
+      3.3,
+      0.0,
+      11.12
+    ],
+    "surfaces": {
+      "Plane": 72,
+      "Cylinder": 40
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).step",
+    "valid": true,
+    "solids": 1,
+    "volume": 1.7986889164759852,
+    "bounds": [
+      -0.6985000000000005,
+      0.6985000000000005,
+      -4.92819169311593e-17,
+      5.334445182869953,
+      -0.6587019144498084,
+      1.2192000000000003
+    ],
+    "surfaces": {
+      "Plane": 45,
+      "Cylinder": 24,
+      "BSplineSurface": 2
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).step",
+    "valid": true,
+    "solids": 1,
+    "volume": 2.049801650872504,
+    "bounds": [
+      -0.6985000000000003,
+      0.6985000000000017,
+      2.725626499892957,
+      6.603272339689423,
+      -6.009474745080656,
+      -0.42245970528421345
+    ],
+    "surfaces": {
+      "Plane": 45,
+      "Cylinder": 24
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 87.85540535143011,
+    "bounds": [
+      -4.279392000000021,
+      4.279392000000021,
+      -2.2225000000000072,
+      2.2225000000000015,
+      -1.9989800000000078,
+      1.9989800000000104
+    ],
+    "surfaces": {
+      "Plane": 584,
+      "Cylinder": 18
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/MMT-106-01-X-DH.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 118.71851289406791,
+    "bounds": [
+      -0.9999979999999999,
+      10.999978,
+      -7.222998,
+      4.200398,
+      -2.9999940000000014,
+      0.9999980000000006
+    ],
+    "surfaces": {
+      "Plane": 326,
+      "Cylinder": 48
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/MMT-110-02-X-DH.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 204.15854253980166,
+    "bounds": [
+      -0.9999979999999999,
+      18.999962000000004,
+      -7.222998,
+      5.444998,
+      -2.9999940000000014,
+      0.9999980000000006
+    ],
+    "surfaces": {
+      "Plane": 550,
+      "Cylinder": 80
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/TMS-106-03-X-S-RA.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 43.00685851811781,
+    "bounds": [
+      -3.8100000000000014,
+      3.8100000000000014,
+      -3.048000000000001,
+      4.445,
+      -1.2192000000000012,
+      4.775199999999998
+    ],
+    "surfaces": {
+      "Plane": 132,
+      "SurfaceOfRevolution": 12,
+      "Cylinder": 12
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/c-1734507-6-b-3d.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 42.6757284934994,
+    "bounds": [
+      -3.000000000000034,
+      3.0000000000000338,
+      -4.6,
+      2.0,
+      -4.0,
+      4.0
+    ],
+    "surfaces": {
+      "Plane": 109,
+      "Cylinder": 12
+    }
+  },
+  {
+    "path": "references_step/Composants/Connecteurs/c-1734606-6-b-3d.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 116.25160860039806,
+    "bounds": [
+      -3.1000000000000005,
+      3.1000000000000005,
+      -3.05,
+      1.9,
+      -6.65,
+      1.65
+    ],
+    "surfaces": {
+      "Plane": 162,
+      "Cylinder": 24
+    }
+  },
+  {
+    "path": "references_step/Composants/Lipo_210mAh_30x20x5.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 2837.8524524892787,
+    "bounds": [
+      -36.00000431311095,
+      4.313110945607921e-06,
+      -20.000004313110953,
+      4.313110942879943e-06,
+      0.0,
+      4.200000000000001
+    ],
+    "surfaces": {
+      "Plane": 6,
+      "Cylinder": 8
+    }
+  },
+  {
+    "path": "references_step/Composants/M2x3,5.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 14.781315526679963,
+    "bounds": [
+      -1.6235883004385911,
+      1.6235883004385911,
+      -1.6235883004385911,
+      1.6235883004385911,
+      0.0,
+      4.500000000000001
+    ],
+    "surfaces": {
+      "Plane": 10,
+      "Cylinder": 20,
+      "Cone": 1,
+      "Sphere": 6,
+      "Toroid": 9
+    }
+  },
+  {
+    "path": "references_step/Composants/SFH4545.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 158.8449544547203,
+    "bounds": [
+      -2.8499999999999996,
+      2.5,
+      -11.1,
+      2.8499999999999996,
+      -4.440892098500626e-16,
+      8.8
+    ],
+    "surfaces": {
+      "Plane": 17,
+      "Cylinder": 4,
+      "Sphere": 1
+    }
+  },
+  {
+    "path": "references_step/Composants/SQT-104-01-X-D-RA.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 217.54004436884674,
+    "bounds": [
+      -0.14859000000000008,
+      8.148573999999998,
+      -5.376393615569855,
+      5.968999999999999,
+      -1.5318856109628831,
+      3.9999919999999998
+    ],
+    "surfaces": {
+      "Plane": 134,
+      "Cylinder": 16
+    }
+  },
+  {
+    "path": "references_step/Composants/SSD1306.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 658.1727462832912,
+    "bounds": [
+      -13.350000000000001,
+      13.350000000000003,
+      -20.125426432177246,
+      1.3273117190975294e-31,
+      0.0,
+      1.45
+    ],
+    "surfaces": {
+      "Plane": 16,
+      "Cylinder": 2
+    }
+  },
+  {
+    "path": "references_step/Composants/Support_SD-card.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 128.3185989063255,
+    "bounds": [
+      -10.07146783703,
+      1.3085321629760003,
+      -12.7847904453,
+      0.7152096979254958,
+      0.0599999999943,
+      1.41
+    ],
+    "surfaces": {
+      "Plane": 697,
+      "Cylinder": 243,
+      "Cone": 44,
+      "SurfaceOfRevolution": 3
+    }
+  },
+  {
+    "path": "references_step/Composants/TEFT4300.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 35.169855377503836,
+    "bounds": [
+      -1.600000000000001,
+      1.6000000000000005,
+      -6.200000000000001,
+      1.95,
+      0.0,
+      5.000000000000001
+    ],
+    "surfaces": {
+      "Plane": 18,
+      "Cylinder": 5,
+      "Sphere": 1
+    }
+  },
+  {
+    "path": "references_step/Composants/TrackBall.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 431.0464777304128,
+    "bounds": [
+      -6.7,
+      6.7,
+      -5.500000000000002,
+      5.5,
+      -4.500000000000001,
+      2.6
+    ],
+    "surfaces": {
+      "Plane": 33,
+      "Cone": 1,
+      "Cylinder": 2,
+      "Toroid": 2,
+      "Sphere": 2
+    }
+  },
+  {
+    "path": "references_step/Roue/Jante.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 752.0583005480419,
+    "bounds": [
+      -10.4,
+      10.4,
+      -10.4,
+      10.4,
+      -3.2508426841104665e-05,
+      11.5
+    ],
+    "surfaces": {
+      "Plane": 33,
+      "Cylinder": 68,
+      "SurfaceOfRevolution": 2
+    }
+  },
+  {
+    "path": "references_step/Roue/M0,4_50dents.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 797.0156695398942,
+    "bounds": [
+      -10.396996438087433,
+      10.396996438087434,
+      -10.3995708903127,
+      10.3995708903127,
+      0.0,
+      4.0
+    ],
+    "surfaces": {
+      "Plane": 703,
+      "Cylinder": 102
+    }
+  },
+  {
+    "path": "references_step/Roue/M0,4_50dents_J2.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 610.6878092554834,
+    "bounds": [
+      -10.396996438087433,
+      10.396996438087434,
+      -10.3995708903127,
+      10.3995708903127,
+      0.0,
+      4.0
+    ],
+    "surfaces": {
+      "Plane": 703,
+      "Cylinder": 114
+    }
+  },
+  {
+    "path": "references_step/Roue/Pneu.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 1232.3479079195454,
+    "bounds": [
+      -13.259304453581827,
+      13.259304453581827,
+      -13.259304453581827,
+      13.259304453581827,
+      -4.440892098500626e-16,
+      8.5
+    ],
+    "surfaces": {
+      "Cylinder": 3,
+      "Plane": 3,
+      "Toroid": 2
+    }
+  },
+  {
+    "path": "references_step/Roue/Roulement.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 46.544314876161756,
+    "bounds": [
+      -3.0000000000000027,
+      3.0000000000000027,
+      -3.0000000000000027,
+      3.0000000000000027,
+      0.0,
+      2.5
+    ],
+    "surfaces": {
+      "Cylinder": 6,
+      "Plane": 4,
+      "Toroid": 2
+    }
+  },
+  {
+    "path": "references_step/Transmission/1717TSR.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 4217.832355739147,
+    "bounds": [
+      -8.499999999999996,
+      8.500000000000023,
+      -8.5,
+      8.5,
+      -2.40000000000001,
+      25.1
+    ],
+    "surfaces": {
+      "Plane": 8,
+      "Cylinder": 13,
+      "Cone": 7
+    }
+  },
+  {
+    "path": "references_step/Transmission/Axe_Roue.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 83.38167123950278,
+    "bounds": [
+      -2.2499999999999996,
+      2.2499999999999996,
+      -2.0,
+      2.0,
+      -3.5,
+      11.700000000000001
+    ],
+    "surfaces": {
+      "Plane": 7,
+      "Cylinder": 5
+    }
+  },
+  {
+    "path": "references_step/Transmission/Ecrou_M2.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 33.63795054390917,
+    "bounds": [
+      -2.511364379771578,
+      2.511364379771209,
+      -2.5980733596497108,
+      2.598073359649709,
+      0.0,
+      2.5
+    ],
+    "surfaces": {
+      "Plane": 15,
+      "Toroid": 10,
+      "Cylinder": 21,
+      "BSplineSurface": 24
+    }
+  },
+  {
+    "path": "references_step/Transmission/Entretoise_Droite.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 126.24511514974162,
+    "bounds": [
+      -12.004425973329445,
+      12.004425973329445,
+      -7.449999999999998,
+      8.401316182427982,
+      -6.776263578034403e-21,
+      1.5
+    ],
+    "surfaces": {
+      "Plane": 10,
+      "SurfaceOfExtrusion": 4,
+      "Cylinder": 17
+    }
+  },
+  {
+    "path": "references_step/Transmission/Entretoise_Gauche.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 126.2451151497416,
+    "bounds": [
+      -12.004425973329445,
+      12.004425973329445,
+      -7.449999999999998,
+      8.401316182427982,
+      0.0,
+      1.5
+    ],
+    "surfaces": {
+      "Plane": 10,
+      "SurfaceOfExtrusion": 4,
+      "Cylinder": 17
+    }
+  },
+  {
+    "path": "references_step/Transmission/Intercalaire_Droit.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 294.26721829037433,
+    "bounds": [
+      -15.98218395180637,
+      15.98218395180637,
+      -7.450000000000032,
+      7.449999999999999,
+      0.0,
+      1.5
+    ],
+    "surfaces": {
+      "Plane": 15,
+      "SurfaceOfExtrusion": 6,
+      "Cylinder": 44
+    }
+  },
+  {
+    "path": "references_step/Transmission/Intercalaire_Gauche - Copie.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 294.2709247263122,
+    "bounds": [
+      -15.982183951805538,
+      15.982183951806144,
+      -7.450000000001538,
+      7.450000000000183,
+      0.0,
+      1.5
+    ],
+    "surfaces": {
+      "Plane": 15,
+      "Cylinder": 44,
+      "SurfaceOfExtrusion": 6
+    }
+  },
+  {
+    "path": "references_step/Transmission/M0,4_15dents.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 88.14595520489367,
+    "bounds": [
+      -3.39076999986794,
+      3.3941337698827,
+      -3.3546723340077,
+      3.3999999999999817,
+      0.0,
+      4.0
+    ],
+    "surfaces": {
+      "Plane": 453,
+      "Cylinder": 32
+    }
+  },
+  {
+    "path": "references_step/Transmission/Support_Essieu.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 466.4330492580933,
+    "bounds": [
+      -15.982183951805291,
+      18.000000000000014,
+      -10.65676561443919,
+      8.49999999999897,
+      -1.7763568394002505e-15,
+      1.5000000000000036
+    ],
+    "surfaces": {
+      "Plane": 23,
+      "Cylinder": 56,
+      "SurfaceOfExtrusion": 8
+    }
+  },
+  {
+    "path": "references_step/Transmission/Tige_Renfort.step",
+    "valid": true,
+    "solids": 1,
+    "volume": 144.51326206513048,
+    "bounds": [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0,
+      0.0,
+      46.0
+    ],
+    "surfaces": {
+      "Cylinder": 1,
+      "Plane": 2
+    }
+  }
+]

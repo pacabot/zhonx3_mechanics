@@ -1,0 +1,125 @@
+ZHONX III — conversion SolidWorks vers FreeCAD
+12 octobre 2026 — préparé et contrôlé avec FreeCAD 1.1.3
+
+OUVRIR ET MODIFIER
+
+Ouvrir ZHONX_III.FCStd : assemblage principal autonome, avec 81 occurrences
+de pièces (73 issues de pièces à esquisses et 8 écrous importés).
+La version native SolidWorks a été retirée au profit de cette version FreeCAD.
+Les références STEP et les rapports de conversion restent disponibles.
+
+Dans l'arbre, développer « Pieces sources — esquisses et fonctions », puis
+le corps de la pièce. Les Sketch sont de vraies esquisses Sketcher ; les
+Pad, Pocket, Revolution, Groove et Fillet sont des fonctions Part Design.
+Double-cliquer sur une esquisse pour modifier son profil, ou sélectionner
+une fonction pour modifier sa longueur, son angle ou son rayon.
+Les cercles possèdent des contraintes de rayon nommées Rayon_XXX.
+Les autres profils ne sont pas entièrement contraints : ajouter les cotes
+et contraintes souhaitées avant une modification importante de forme.
+
+L'assemblage utilise des liens internes vers les corps de sa bibliothèque :
+modifier un corps dans CE document met à jour ses occurrences. Les fichiers
+individuels du dossier pieces sont des copies indépendantes. Les modifier
+ne met pas automatiquement à jour les copies intégrées aux assemblages.
+Chaque assemblage est autonome et peut être déplacé sans casser ses liens.
+
+CONTENU
+
+- pieces/ : 33 pièces reconstruites avec esquisses et fonctions Part Design,
+  dont châssis, platines, roues, engrenages, transmission et plusieurs composants.
+- composants_importes/ : 11 pièces conservées comme solides de référence.
+- assemblages/ : 13 assemblages et sous-assemblages issus des fichiers SLDASM.
+  L'autre Assemblage_Final/Assemblage_Final.FCStd contient 49 occurrences,
+  toutes issues de pièces reconstruites avec esquisses.
+- references_step/ : 44 références géométriques extraites des fichiers SLDPRT.
+- apercu_assemblage.png et apercu_jante.png : vues de contrôle.
+- tools/ : scripts de conversion, reconstruction et vérification.
+- *_report.json et assembly_manifest.json : traçabilité détaillée.
+
+CE QUI A ÉTÉ RECONSTRUIT
+
+La géométrie des esquisses a été mesurée sur les surfaces extraites. Il ne
+s'agit pas d'une récupération de l'historique de conception SolidWorks.
+Les contraintes originales, équations, configurations alternatives et
+relations entre pièces ne sont pas transférées. Les profils d'engrenages
+reproduisent les contours sources ; il n'existe pas de paramètre global
+« module / nombre de dents » générant une nouvelle denture.
+
+Les assemblages conservent la hiérarchie et les positions enregistrées des
+composants actifs, ainsi que leur état masqué. Les composants supprimés
+sont recensés dans assembly_report.json. Les contraintes d'assemblage
+SolidWorks ne sont pas converties en liaisons cinématiques FreeCAD.
+Les noms des fichiers « Eclate » sont conservés ; les étapes d'explosion
+et animations SolidWorks ne sont pas récupérées.
+
+PIÈCES RESTÉES IMPORTÉES
+
+La reconstruction de ces pièces en fonctions n'a pas été validée. Elles
+sont explicitement identifiées comme références, sans esquisse factice :
+
+  Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH)
+  Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH)
+  Composants/Connecteurs/MMS-XX-D-XXX_FORMULA
+  Composants/Connecteurs/MMT-106-01-X-DH
+  Composants/Connecteurs/MMT-110-02-X-DH
+  Composants/Connecteurs/TMS-106-03-X-S-RA
+  Composants/Connecteurs/c-1734507-6-b-3d
+  Composants/Connecteurs/c-1734606-6-b-3d
+  Composants/SQT-104-01-X-D-RA
+  Composants/Support_SD-card
+  Transmission/Ecrou_M2
+
+Les dix premiers étaient déjà des géométries importées dans SolidWorks.
+Pour l'écrou, les essais de reconstruction des congés n'ont pas respecté
+les critères géométriques retenus ; le solide extrait a donc été conservé.
+
+CONTRÔLES ET PRÉCISION
+
+Les 33 pièces reconstruites donnent un solide valide et se recalculent sans
+erreur. Les volumes et les distances aux surfaces ont été comparés dans
+les deux sens à la référence STEP. L'écart maximal échantillonné est de
+0,000579 mm (environ 0,58 micromètre). Ce contrôle par échantillonnage n'est
+pas une borne mathématique sur toute la surface.
+
+La comparaison porte sur le STEP extrait, et non sur une ouverture dans
+le noyau SolidWorks. L'extracteur signale des approximations de certaines
+courbes sur 14 fichiers : consulter extraction_report.json. Les unités
+FreeCAD sont en millimètres ; les translations d'assemblage SolidWorks
+en mètres ont été converties en millimètres.
+
+validation_report.json détaille les comparaisons des 33 pièces.
+geometry_report.json décrit les 44 solides de référence.
+project_check_report.json contrôle la réouverture des documents, les liens
+internes, les solides, la modification d'une épaisseur et d'un rayon
+d'esquisse, et les empreintes SHA-256 des 44 références STEP.
+Les 44 fichiers SLDPRT étaient intacts lors du contrôle avant leur retrait ;
+leurs empreintes restent consignées dans extraction_report.json.
+Les modifications d'essai ne sont pas enregistrées dans les modèles livrés.
+
+OUTILS ET PROVENANCE
+
+Les scripts utilisent les modules Python fournis par FreeCAD. Sur ce Mac :
+  /Applications/FreeCAD.app/Contents/Resources/bin/python tools/check_project.py
+  /Applications/FreeCAD.app/Contents/Resources/bin/python tools/validate_geometry.py
+
+Les contrôles et la reconstruction à partir des STEP et du manifeste
+d'assemblage ne nécessitent pas les fichiers SolidWorks.
+Pour refaire l'extraction, restaurer une copie des sources et passer son
+chemin à extract_geometry.py ou extract_assemblies.py avec --source CHEMIN.
+check_project.py accepte aussi --source CHEMIN pour vérifier ces sources.
+build_freecad.py reconstruit les profils extrudés
+et les pièces de révolution ; special_parts.py traite les pièces complexes.
+Leur option --only permet de cibler une pièce. package_project.py recrée
+les assemblages et remplace leurs copies intégrées : sauvegarder ses
+modifications personnelles avant de relancer une génération.
+Ouvrir tools/presentation.FCMacro dans FreeCAD pour enregistrer les couleurs,
+la visibilité et les vues des documents générés.
+Les corps liés des assemblages utilisent le mode d'affichage « Tip » pour
+que leur solide reste visible après réouverture. finalize_views.py permet
+de réappliquer ce réglage aux fichiers déjà préparés graphiquement.
+
+L'extracteur tiers inclus dans tools/vendor/sldprt2step provient de :
+  https://github.com/BlinkingSun/sldprt2step
+  révision fa954124f4f126e0c465c8f96454978ac80b812e
+Licence Apache 2.0 ; licence et avis d'origine fournis avec le code.
+Modification locale : lecture des mini-flux OLE/CFB, nécessaire à deux pièces.

@@ -1,0 +1,145 @@
+[
+  {
+    "source": "Assemblage_Final/Assemblage_Final.SLDASM",
+    "instances": 49,
+    "parametric_instances": 49,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Assemblage_Final/Assemblage_Final.FCStd",
+    "unique_parts": 19,
+    "errors": []
+  },
+  {
+    "source": "Chassis/Assemblage_Platine_Superieure.SLDASM",
+    "instances": 6,
+    "parametric_instances": 6,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Chassis/Assemblage_Platine_Superieure.FCStd",
+    "unique_parts": 4,
+    "errors": []
+  },
+  {
+    "source": "Composants/Capteur_Distance.SLDASM",
+    "instances": 5,
+    "parametric_instances": 5,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Composants/Capteur_Distance.FCStd",
+    "unique_parts": 5,
+    "errors": []
+  },
+  {
+    "source": "Composants/Capteurs_Distance_V2/Assemblage_Capteur_Distance_V2.SLDASM",
+    "instances": 4,
+    "parametric_instances": 4,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Composants/Capteurs_Distance_V2/Assemblage_Capteur_Distance_V2.FCStd",
+    "unique_parts": 4,
+    "errors": []
+  },
+  {
+    "source": "Composants/Connecteurs/MMS-104-02-X-DH.SLDASM",
+    "instances": 9,
+    "parametric_instances": 0,
+    "reference_instances": 9,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Composants/Connecteurs/MMS-104-02-X-DH.FCStd",
+    "unique_parts": 3,
+    "errors": []
+  },
+  {
+    "source": "Roue/Assemblage_roue/Roue.SLDASM",
+    "instances": 5,
+    "parametric_instances": 5,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Roue/Assemblage_roue/Roue.FCStd",
+    "unique_parts": 4,
+    "errors": []
+  },
+  {
+    "source": "Roue/Assemblage_roue/Roue_eclate.SLDASM",
+    "instances": 5,
+    "parametric_instances": 5,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Roue/Assemblage_roue/Roue_eclate.FCStd",
+    "unique_parts": 4,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Bloc_Transmission.SLDASM",
+    "instances": 50,
+    "parametric_instances": 42,
+    "reference_instances": 8,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Bloc_Transmission.FCStd",
+    "unique_parts": 15,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Bloc_Transmission_Eclate.SLDASM",
+    "instances": 50,
+    "parametric_instances": 42,
+    "reference_instances": 8,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Bloc_Transmission_Eclate.FCStd",
+    "unique_parts": 15,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Transmission_Droite.SLDASM",
+    "instances": 19,
+    "parametric_instances": 19,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Droite.FCStd",
+    "unique_parts": 10,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Transmission_Droite_Eclate.SLDASM",
+    "instances": 19,
+    "parametric_instances": 19,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Droite_Eclate.FCStd",
+    "unique_parts": 10,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Transmission_Gauche.SLDASM",
+    "instances": 19,
+    "parametric_instances": 19,
+    "reference_instances": 0,
+    "suppressed": 0,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Transmission_Gauche.FCStd",
+    "unique_parts": 10,
+    "errors": []
+  },
+  {
+    "source": "Transmission/Assemblages_Transmission/Zhonx_III_Assemblage_Final.SLDASM",
+    "instances": 81,
+    "parametric_instances": 73,
+    "reference_instances": 8,
+    "suppressed": 2,
+    "missing": [],
+    "file": "assemblages/Transmission/Assemblages_Transmission/Zhonx_III_Assemblage_Final.FCStd",
+    "unique_parts": 25,
+    "errors": []
+  }
+]

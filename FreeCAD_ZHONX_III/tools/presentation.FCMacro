@@ -1,0 +1,61 @@
+"""Open in the FreeCAD GUI to persist visibility, colours and camera views."""
+import FreeCAD as App, FreeCADGui as Gui
+from pathlib import Path
+import sys,json,traceback
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'tools'))
+from package_project import colour
+from PySide import QtCore,QtWidgets
+
+def format_document(path):
+    for opened in list(App.listDocuments().values()):
+        if opened.FileName==str(path):App.closeDocument(opened.Name)
+    doc=App.openDocument(str(path))
+    for obj in doc.Objects:
+        if obj.TypeId=='PartDesign::Body':
+            source=getattr(obj,'Source',obj.Label)
+            obj.ViewObject.ShapeColor=colour(source)
+            obj.ViewObject.LineColor=(.12,.14,.17)
+            if doc.getObject('Bibliotheque'):obj.ViewObject.DisplayModeBody='Tip'
+            for feature in obj.Group:
+                if feature.ViewObject:feature.ViewObject.Visibility=False
+                if hasattr(feature.ViewObject,'ShapeColor'):feature.ViewObject.ShapeColor=colour(source)
+            if obj.Tip:obj.Tip.ViewObject.Visibility=True
+            obj.ViewObject.Visibility=not bool(doc.getObject('Bibliotheque'))
+        elif obj.TypeId=='Sketcher::SketchObject':obj.ViewObject.Visibility=False
+        elif obj.TypeId=='App::Origin':obj.ViewObject.Visibility=False
+        elif obj.TypeId in ('App::Part','App::Link'):
+            obj.ViewObject.Visibility=getattr(obj,'SourceHidden','NO')!='YES'
+    if doc.getObject('Bibliotheque'):
+        doc.Bibliotheque.ViewObject.Visibility=True
+        for master in doc.Bibliotheque.Group:master.ViewObject.Visibility=False
+    view=Gui.activeDocument().activeView()
+    # Explicit orientation avoids sampling an in-progress view animation.
+    view.setCameraOrientation(App.Rotation(App.Vector(1,1,0),App.Vector(-1,1,2),App.Vector(1,-1,1),'ZXY').Q)
+    Gui.activeDocument().activeView().fitAll()
+    QtWidgets.QApplication.processEvents()
+    doc.recompute()
+    doc.save()
+    return doc
+
+def run():
+    log=[]
+    try:
+        for directory in ['pieces','composants_importes','assemblages']:
+            for path in sorted((ROOT/directory).rglob('*.FCStd')):
+                doc=format_document(path)
+                log.append(str(path.relative_to(ROOT)))
+                App.closeDocument(doc.Name)
+        doc=format_document(ROOT/'ZHONX_III.FCStd')
+        Gui.activeDocument().activeView().saveImage(str(ROOT/'apercu_assemblage.png'),1800,1200,'White')
+        jante=format_document(ROOT/'pieces/Roue/Jante.FCStd')
+        Gui.activeDocument().activeView().saveImage(str(ROOT/'apercu_jante.png'),1200,1000,'White')
+        App.closeDocument(jante.Name)
+        App.setActiveDocument(doc.Name)
+        Gui.activeDocument().activeView().fitAll()
+        (ROOT/'presentation_report.json').write_text(json.dumps(dict(ok=True,files=log),indent=2))
+    except Exception:
+        (ROOT/'presentation_report.json').write_text(json.dumps(dict(ok=False,files=log,error=traceback.format_exc()),indent=2))
+        raise
+
+QtCore.QTimer.singleShot(500,run)

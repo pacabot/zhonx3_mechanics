@@ -1,0 +1,610 @@
+[
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 38,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Chassis/Carte_Capteurs_Bas.SLDPRT",
+    "sha256": "0be09a533e7195d1f1e04a9937eb6fa74aee97674ee1817d11a3771d6972dc07",
+    "reference": "references_step/Chassis/Carte_Capteurs_Bas.step",
+    "reference_sha256": "4660406413df87c9c2fe09f0b3ce3c1f4d8f02fc8f186bd06c23d345fd600390"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 61,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Chassis/Carte_Capteurs_Haut.SLDPRT",
+    "sha256": "6cc640f595a2afa6c389ae279da810a8a35f4fdef1c158975a3f7a9e5703c252",
+    "reference": "references_step/Chassis/Carte_Capteurs_Haut.step",
+    "reference_sha256": "60574f9bbe7e51d0b44ce5f776a2512ac830e87c3cd3661d52e1b0256d89c001"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 156,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Chassis/Mere_old/Platine_Mere.SLDPRT",
+    "sha256": "e68e6cb06218b8370fc3e6a3e204d9dbc3a1974471077d931d60f42ba0ea4124",
+    "reference": "references_step/Chassis/Mere_old/Platine_Mere.step",
+    "reference_sha256": "9cd33fcd80119dac115e4b3c32ed8a101e2628a631f1fbb0dde40ecc998a76f5"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 155,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Chassis/Platine_Mere.SLDPRT",
+    "sha256": "05d455a77600482b5043788a20c2f27cc4acd05ba84b40969761e1191f2fcd25",
+    "reference": "references_step/Chassis/Platine_Mere.step",
+    "reference_sha256": "cef1093886e2db30e9edfaec6ed3a8c14977d57dfcf4e9d5de71d75d64be4019"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 44,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Chassis/Platine_Superieure.SLDPRT",
+    "sha256": "89732bba3c3fc381ae014215c04c746195c97335e80430a41fb23d86ab004bde",
+    "reference": "references_step/Chassis/Platine_Superieure.step",
+    "reference_sha256": "3d80d510af233c241f14cab8ca0d2d777f21e4d8ef1887cbe39599d4e7c0eb11"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 23,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "tolerant_edge: tolerant edges rebuilt from their fin SP-curves (4 occurrences)",
+      "sp_curve: curves defined in surface parameter space approximated by cubic splines through evaluated points (2 occurrences)"
+    ],
+    "source": "Composants/Capot_Capteurs_Distance.SLDPRT",
+    "sha256": "86491fa37f8ba2a11f55efa23f6c4da6b20531ace96e4d4c72a556c0f31a0d7d",
+    "reference": "references_step/Composants/Capot_Capteurs_Distance.step",
+    "reference_sha256": "f0ffb20417853fc90241764478af4c7b547b3e50c93e8fdbed1c03ddbc9e6257"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 16,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Capteurs_Distance.SLDPRT",
+    "sha256": "35f758360e300077ab8dd8e13a056915e3f7d37b18242c0ab2819a7a0772e13c",
+    "reference": "references_step/Composants/Capteurs_Distance.step",
+    "reference_sha256": "d902a66710c75d1c6ab2731efa55750e6f64b64e52eec417ee5407eb5d02f4a8"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 16,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.SLDPRT",
+    "sha256": "b8a081ec79ad7697671fefe364cafc41bc9edcd17dad592a11158af501176959",
+    "reference": "references_step/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.step",
+    "reference_sha256": "b2b1106bf0e7d9fc15d1c2f862b2afa8d8c4af728c77e6c829587451d1eb84fc"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 16,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Capteurs_Distance_V2/SFH4545.SLDPRT",
+    "sha256": "acbd3d1be4d101371b53c00ee01f919141c69d42780ae05944b14298919dd0f8",
+    "reference": "references_step/Composants/Capteurs_Distance_V2/SFH4545.step",
+    "reference_sha256": "bcd053510fb727629363f24a22426353fe7e6393e0f25ee2ec0cf06d8d83cd59"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 18,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Capteurs_Distance_V2/TEFT4300.SLDPRT",
+    "sha256": "4855ebc52c212967ecd4d77bf3665917c33696c7eadd0e8153edc0063b0b003e",
+    "reference": "references_step/Composants/Capteurs_Distance_V2/TEFT4300.step",
+    "reference_sha256": "9cf67c8cd38920126a3a7fb0f0edf6a79431497355341d33d8103461a8458967"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 12,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.SLDPRT",
+    "sha256": "a86c43ff06265f1ac67358b0ddd8b8c8d691c82f29718100b93eaa660f09bf0b",
+    "reference": "references_step/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.step",
+    "reference_sha256": "7e72872cfbba70431570464e80c3155c55ad8e74d480a9a17979afcf06d7528f"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 6,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Connecteur_Moteur.SLDPRT",
+    "sha256": "b3f7fc0dff449c08b61a6aa23b310a10460fd51b9514d5120104d5e131dc27b0",
+    "reference": "references_step/Composants/Connecteur_Moteur.step",
+    "reference_sha256": "42ed9aa878c9ec4e26b6e330842de17a97ed518300b5036a39645a9eb087c986"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 112,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Connecteurs/Barette_Connection.SLDPRT",
+    "sha256": "87e077d8d0956f7e92bae3945c8838a5da6cb80baaf8e3c837f5825ba7170bb5",
+    "reference": "references_step/Composants/Connecteurs/Barette_Connection.step",
+    "reference_sha256": "2a84be91c45993ff4018758a20f53ffe6abbd235efec3ba8f6a69f2b00990ee9"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 71,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)",
+      "sp_curve: curves defined in surface parameter space approximated by cubic splines through evaluated points (4 occurrences)"
+    ],
+    "source": "Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).sldprt",
+    "sha256": "9734386dd787dee6d17a580826a8dd831281d1ff487ca0d5882128ef868df24b",
+    "reference": "references_step/Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).step",
+    "reference_sha256": "1e9e8c88506df4ea4fc85d7721979c4c68ae359c5c23e5b445dd0ef92503ee32"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 69,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).sldprt",
+    "sha256": "c3042a33042dffaa697bff628af57a7f6cee0aa7c9b16630bec29d0bd08c80cb",
+    "reference": "references_step/Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).step",
+    "reference_sha256": "7ab028fa4762f2337e8c6b29088e4904ce0531a9c31f5d1fc679282074a1ec0b"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 602,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.sldprt",
+    "sha256": "f530afd13bdfce10ad118b721b2a2bd570012493c6830fe13f76be8b35161e38",
+    "reference": "references_step/Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.step",
+    "reference_sha256": "20919099dd6fa67baae470cb393b1eafe3d2a44dd38f265ec7e61bad4af370c2"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 374,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/MMT-106-01-X-DH.SLDPRT",
+    "sha256": "6d6b5330cbdde99ef3e742a14d36bee386df9227c5011486c3a737906f28f2cf",
+    "reference": "references_step/Composants/Connecteurs/MMT-106-01-X-DH.step",
+    "reference_sha256": "5f9967ba765bf9ee91ef6021c7603edaabb82dab87518d2985509529ad2f0d11"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 630,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/MMT-110-02-X-DH.SLDPRT",
+    "sha256": "c24f8405cae39d82cdb31f349c610aa5536eca9bc26fcf836324181f56cca182",
+    "reference": "references_step/Composants/Connecteurs/MMT-110-02-X-DH.step",
+    "reference_sha256": "bbe975bd864156c3c450c5f96eb604d7e83168c813ad684fe3d2f68de0ef5d02"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 156,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/TMS-106-03-X-S-RA.SLDPRT",
+    "sha256": "6de03f7051af709a559d6c010165ac642e97ac67602efa0e72ca13f23d950741",
+    "reference": "references_step/Composants/Connecteurs/TMS-106-03-X-S-RA.step",
+    "reference_sha256": "692e39cca1aefc5785d6facbcbf0249513011072cc6af707d84c7c1fa7644178"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 121,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/c-1734507-6-b-3d.SLDPRT",
+    "sha256": "5dfa56e1170401599dd8c92366cca624b8fdfe5024fd3e2c673b3fe31347b0d8",
+    "reference": "references_step/Composants/Connecteurs/c-1734507-6-b-3d.step",
+    "reference_sha256": "7ee910765a5a651d33362189c99c97d45bdd03549b75301b4fd3c9695019eb39"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 186,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/Connecteurs/c-1734606-6-b-3d.SLDPRT",
+    "sha256": "b88280da2cc3b579810bc71c2bd8adce119ee638dabc20da54579c208027373e",
+    "reference": "references_step/Composants/Connecteurs/c-1734606-6-b-3d.step",
+    "reference_sha256": "9fb95ed1b195dbd7f5667c9e3e0e9fc4789a83bb4590cdf211e6a162cd7635c4"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 14,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/Lipo_210mAh_30x20x5.SLDPRT",
+    "sha256": "fb736231fc5e284d91e29e9518f01dca628ed791b7a05003fea888eec6af6049",
+    "reference": "references_step/Composants/Lipo_210mAh_30x20x5.step",
+    "reference_sha256": "05bf224083e6362f3e1e531b27b9f921f5dc0573566d05017777edb36512d1e0"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 46,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/M2x3,5.SLDPRT",
+    "sha256": "942bd5211d9217dd95ee9a41262b0ae09e95a53b3c88771479e6f6270223d484",
+    "reference": "references_step/Composants/M2x3,5.step",
+    "reference_sha256": "8459da0cbf8ffd88745e2c19d6c7ddb0e6fac8e96c2fee83dbb0806f18df9723"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 22,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/SFH4545.SLDPRT",
+    "sha256": "5b4e2568b4cf96c6b7994698ff3bc85138f4e02d22904e1ad847f6c7cc965c3a",
+    "reference": "references_step/Composants/SFH4545.step",
+    "reference_sha256": "8487177d33fc42e60d2be87209bf38839d0cb80bb0ad22f724dedbc9b8ed8b4a"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 150,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)"
+    ],
+    "source": "Composants/SQT-104-01-X-D-RA.SLDPRT",
+    "sha256": "24bf829e6fb2219200fd77b15901b89cbaceb514f026448c813993c18fbd63b1",
+    "reference": "references_step/Composants/SQT-104-01-X-D-RA.step",
+    "reference_sha256": "8673ce61ec6d8d186703d75314d9e05668944c9b68c785fcd1fc2e206477ed7c"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 18,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/SSD1306.SLDPRT",
+    "sha256": "da24d4d8e0024334a921da3dcc430d3d8f6bd49ccddb80dd304ae1041b32400c",
+    "reference": "references_step/Composants/SSD1306.step",
+    "reference_sha256": "9030b828ccfb3b1a3a5baa8651f01d5bdea4730794ff10ed79be99bad4de1f10"
+  },
+  {
+    "bodies": [
+      "Importée1"
+    ],
+    "faces": 987,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "imported_bodies: live partition is empty; 1 solid body taken from feature data (Importée1)",
+      "tolerant_edge: tolerant edges rebuilt from their fin SP-curves (101 occurrences)",
+      "sp_curve: curves defined in surface parameter space approximated by cubic splines through evaluated points (28 occurrences)",
+      "void_shells: solid 'Importée1' has 2 inner void shells (BREP_WITH_VOIDS)"
+    ],
+    "source": "Composants/Support_SD-card.SLDPRT",
+    "sha256": "c21fbdf5762e707a16fb5c0a05a0218582acdc7d47173f34590c51512d8b7811",
+    "reference": "references_step/Composants/Support_SD-card.step",
+    "reference_sha256": "fd1de51b7f14d22e31133570c0b708db2fae59882932d0f27479cbbb106ba51b"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 24,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/TEFT4300.SLDPRT",
+    "sha256": "715e03591d8aab1aa89159e5b9da292d19059d8dfece364a587da9a0e0669996",
+    "reference": "references_step/Composants/TEFT4300.step",
+    "reference_sha256": "38cdf0aefc28c6953e4a6cdfe3c43769fae116b23a0a765fa176636f222209af"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 40,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Composants/TrackBall.SLDPRT",
+    "sha256": "657e069244ca54c985eb6e0e5d11b5c579e4a172e3c6a0160c51eb6e361f65eb",
+    "reference": "references_step/Composants/TrackBall.step",
+    "reference_sha256": "aa7c7afaf623db25b8869dde66450c0c7d3fe5ac01ba764dd7281c976e802f11"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 103,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "intersection_curve: surface/surface intersection edges approximated by interpolating cubic splines through the XT chart points (120 occurrences)"
+    ],
+    "source": "Roue/Jante.SLDPRT",
+    "sha256": "1eba625869fe07d725b646046396bce06ab147b490b08a9383f3881cc01176a9",
+    "reference": "references_step/Roue/Jante.step",
+    "reference_sha256": "7ef75a1f116ef6bf88d72fd774b9cc1295cb0181f32521ad1b56c39f5f5abd4f"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 805,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Roue/M0,4_50dents.SLDPRT",
+    "sha256": "aecd45dd785ce0e6696c7232d6087e8f0a31ad5a4495fcfd94122d93ac473728",
+    "reference": "references_step/Roue/M0,4_50dents.step",
+    "reference_sha256": "dce3e93f98797d2afb3a2934009d28f6b0585d67f254e455dc3bab13ae514a98"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 817,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Roue/M0,4_50dents_J2.SLDPRT",
+    "sha256": "62f6bdc195f1f822a89773bb5feab19dd8b945b8490049462a80ad397aea254f",
+    "reference": "references_step/Roue/M0,4_50dents_J2.step",
+    "reference_sha256": "5fdba4657a2a5b16ac6471d139b804ee0b2d7ebe1e712cf53918c1a30677a99f"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 8,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Roue/Pneu.SLDPRT",
+    "sha256": "a077532e92678e718e89469af12be3fd60710073d015d7a57802a13dd6e07064",
+    "reference": "references_step/Roue/Pneu.step",
+    "reference_sha256": "0f5b3ea0f97d523e24496007e643d38f7222559a49b5304d45dc0d8ce581d069"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 12,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Roue/Roulement.SLDPRT",
+    "sha256": "9031ffac3c8f984ff0de5a2adc79e46a665e019358d7552a414f28d98befc83b",
+    "reference": "references_step/Roue/Roulement.step",
+    "reference_sha256": "e128655a0696da3479429da95d587f4a916dda19d8bd40152994fb182cad8140"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 28,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/1717TSR.SLDPRT",
+    "sha256": "0c3e448273bdc7b23dd2677b1b670125d86545290b84c8d0fa2a312bb9a6141b",
+    "reference": "references_step/Transmission/1717TSR.step",
+    "reference_sha256": "a1ae9b8dbbbd9df96cddfda225ec3065539c9b6167cac4a350880a08bb490fcf"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 12,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Axe_Roue.SLDPRT",
+    "sha256": "561663f03d0e3a1a956aa1b8c1660227330c1f620d78258e4de7c63ad225315d",
+    "reference": "references_step/Transmission/Axe_Roue.step",
+    "reference_sha256": "c1dd1a3a30dff78713061d643a5fde358961405c033203e3913aa443228f99fa"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 70,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "intersection_curve: surface/surface intersection edges approximated by interpolating cubic splines through the XT chart points (42 occurrences)",
+      "cliff_edge_blend: cliff-edge blends built as rolling-ball blends between a face and the cliff edge curve (6 occurrences)",
+      "rolling_ball_blend: exact rolling-ball blend surfaces approximated by interpolating rational B-spline surfaces (exact circular cross-sections) (24 occurrences)"
+    ],
+    "source": "Transmission/Ecrou_M2.SLDPRT",
+    "sha256": "b72fe843fc27bdc2a52f76406bc55b3f7ac7ce15bd1aeaa71355341b9b7e2611",
+    "reference": "references_step/Transmission/Ecrou_M2.step",
+    "reference_sha256": "86b517a30c27fe6cb16957f717eda74405d5a066f7fe49d9acda657aeee5b062"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 31,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Entretoise_Droite.SLDPRT",
+    "sha256": "4595dfc3a92f383a75fe711b1216c18fd1f3d08aaa772d6337c761156f6b8864",
+    "reference": "references_step/Transmission/Entretoise_Droite.step",
+    "reference_sha256": "89d5418d65448ae189d52d07c246b6558b1e79f1529cc8670080593100d10759"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 31,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Entretoise_Gauche.SLDPRT",
+    "sha256": "67e2cadf08b532777cf27990061b9ec0d0b735b6410c1998c0f04f29619c774b",
+    "reference": "references_step/Transmission/Entretoise_Gauche.step",
+    "reference_sha256": "ed3e03b79147b9b0e3cfa3d42128657349b2ef3ec0482ad575d0b7cd0d4c78ce"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 65,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Intercalaire_Droit.SLDPRT",
+    "sha256": "2c4983b3332ea0bb87f42db09eb9e30d06b89fcbddebe49ed23eb22688d280f1",
+    "reference": "references_step/Transmission/Intercalaire_Droit.step",
+    "reference_sha256": "4c69dd70e0f16fa8329c30e1ab88539bb697470b5e7d06b9f2ff022fbc988f2e"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 65,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Intercalaire_Gauche - Copie.SLDPRT",
+    "sha256": "ed92f20c3aafdad1612ba5e09eeb9310b3ace9546432071274906d90250c43ee",
+    "reference": "references_step/Transmission/Intercalaire_Gauche - Copie.step",
+    "reference_sha256": "dc4d7b0cea35042d850e9ca31c0cabfd2665d83c54391f934134e68cf7cd4153"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 485,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/M0,4_15dents.SLDPRT",
+    "sha256": "6f4b3c05d1e64e1754c12e2667f584b4c0621c89c36d1d1bed4d07e29e7b1958",
+    "reference": "references_step/Transmission/M0,4_15dents.step",
+    "reference_sha256": "1a3e1a2912c10b31c28489dc07c69d8a0813d3593d56fce602b5fbd33285b5a4"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 87,
+    "ok": true,
+    "solids": 1,
+    "warnings": [
+      "tolerant_edge: tolerant edges rebuilt from their fin SP-curves (2 occurrences)",
+      "sp_curve: curves defined in surface parameter space approximated by cubic splines through evaluated points"
+    ],
+    "source": "Transmission/Support_Essieu.SLDPRT",
+    "sha256": "b32cd032e6aa3081c8822210c4f4502871d2fb898c58e9f656c3d1c95e902676",
+    "reference": "references_step/Transmission/Support_Essieu.step",
+    "reference_sha256": "2c1109e704f0ca093bed2dab2dffaf7ff96c60153a2000db18ebd995b3f89f96"
+  },
+  {
+    "bodies": [
+      "Body"
+    ],
+    "faces": 3,
+    "ok": true,
+    "solids": 1,
+    "warnings": [],
+    "source": "Transmission/Tige_Renfort.SLDPRT",
+    "sha256": "9eee061793bc672541cb72e61a3db7771006b16f04e3c8135e4b0b6412fde691",
+    "reference": "references_step/Transmission/Tige_Renfort.step",
+    "reference_sha256": "175bb6269a5063b019b5559f8e3c7c277180e36718e238096b0058e33886cc78"
+  }
+]

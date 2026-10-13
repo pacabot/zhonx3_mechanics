@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.FCBak
+*.FCStd1
+*.view-tmp
+
+# Native SolidWorks sources were replaced by the FreeCAD project.
+*.[sS][lL][dD][pP][rR][tT]
+*.[sS][lL][dD][aA][sS][mM]
+*.[sS][lL][dD][dD][rR][wW]
+/Modelisation_ZHONX_III/Transmission/SLDPRT

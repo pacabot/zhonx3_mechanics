@@ -1,0 +1,1091 @@
+[
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 780.7609030980177,
+    "reference_volume_mm3": 780.7609032748861,
+    "volume_difference_mm3": 1.7686841147224186e-07,
+    "relative_volume_difference": 2.2653338650843147e-10,
+    "sampled_surface_distance_mm": 1.3959949785934e-13,
+    "directed_distances_mm": [
+      1.3959949785934e-13,
+      7.944109290391274e-14
+    ],
+    "sample_counts": [
+      575,
+      574
+    ],
+    "worst_points": [
+      [
+        -39.125227920735455,
+        43.25359526603753,
+        0.0
+      ],
+      [
+        -39.12522792073545,
+        43.25359526603752,
+        1.0
+      ]
+    ],
+    "file": "pieces/Chassis/Carte_Capteurs_Bas.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 489.63749551449325,
+    "reference_volume_mm3": 489.6374955144934,
+    "volume_difference_mm3": 1.7053025658242404e-13,
+    "relative_volume_difference": 3.482785900684281e-16,
+    "sampled_surface_distance_mm": 3.015885647235032e-14,
+    "directed_distances_mm": [
+      3.015885647235032e-14,
+      2.2469334198890888e-14
+    ],
+    "sample_counts": [
+      517,
+      517
+    ],
+    "worst_points": [
+      [
+        -50.75373849460371,
+        6.530399290555858,
+        1.0
+      ],
+      [
+        -48.256154626048684,
+        27.0756105381348,
+        0.0
+      ]
+    ],
+    "file": "pieces/Chassis/Carte_Capteurs_Haut.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4916.123419076922,
+    "reference_volume_mm3": 4916.123298824093,
+    "volume_difference_mm3": 0.00012025282921968028,
+    "relative_volume_difference": 2.4460905862235805e-08,
+    "sampled_surface_distance_mm": 2.6378749539683456e-13,
+    "directed_distances_mm": [
+      1.494998474311864e-13,
+      2.6378749539683456e-13
+    ],
+    "sample_counts": [
+      514,
+      501
+    ],
+    "worst_points": [
+      [
+        -54.268184938533004,
+        -2.307611630021319,
+        0.0
+      ],
+      [
+        -25.79072157133752,
+        44.88121603068908,
+        0.0
+      ]
+    ],
+    "file": "pieces/Chassis/Mere_old/Platine_Mere.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4017.530999967585,
+    "reference_volume_mm3": 4017.531011159693,
+    "volume_difference_mm3": 1.1192108104296494e-05,
+    "relative_volume_difference": 2.7858174767556555e-09,
+    "sampled_surface_distance_mm": 1.7764456550218854e-13,
+    "directed_distances_mm": [
+      1.7585035537258281e-13,
+      1.7764456550218854e-13
+    ],
+    "sample_counts": [
+      507,
+      509
+    ],
+    "worst_points": [
+      [
+        -25.13578780509577,
+        -18.199778308975773,
+        0.5
+      ],
+      [
+        -23.964429949527187,
+        -15.329877295270064,
+        0.0
+      ]
+    ],
+    "file": "pieces/Chassis/Platine_Mere.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1007.0002074152773,
+    "reference_volume_mm3": 1007.0002074152771,
+    "volume_difference_mm3": 1.1368683772161603e-13,
+    "relative_volume_difference": 1.128965385354014e-16,
+    "sampled_surface_distance_mm": 1.464821375527116e-14,
+    "directed_distances_mm": [
+      1.0048591735576161e-14,
+      1.464821375527116e-14
+    ],
+    "sample_counts": [
+      519,
+      523
+    ],
+    "worst_points": [
+      [
+        31.869821744258896,
+        40.226082103658484,
+        0.0
+      ],
+      [
+        31.8698217442589,
+        40.2260821036585,
+        0.0
+      ]
+    ],
+    "file": "pieces/Chassis/Platine_Superieure.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 43.95501948664402,
+    "reference_volume_mm3": 43.954888391167415,
+    "volume_difference_mm3": 0.0001310954766040595,
+    "relative_volume_difference": 2.982500499999056e-06,
+    "sampled_surface_distance_mm": 0.0005787013704865141,
+    "directed_distances_mm": [
+      3.337767781621862e-08,
+      0.0005787013704865141
+    ],
+    "sample_counts": [
+      550,
+      567
+    ],
+    "worst_points": [
+      [
+        1.3594752757073219,
+        -1.6706907878984287,
+        2.0
+      ],
+      [
+        1.4116874020293482,
+        -1.4722212314978593,
+        0.5
+      ]
+    ],
+    "file": "pieces/Composants/Capot_Capteurs_Distance.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 50.16753053575944,
+    "reference_volume_mm3": 50.16753053575943,
+    "volume_difference_mm3": 7.105427357601002e-15,
+    "relative_volume_difference": 1.4163398679821903e-16,
+    "sampled_surface_distance_mm": 8.296271088900922e-15,
+    "directed_distances_mm": [
+      5.063396036227354e-15,
+      8.296271088900922e-15
+    ],
+    "sample_counts": [
+      586,
+      586
+    ],
+    "worst_points": [
+      [
+        -2.09544606395051,
+        2.450665617641672,
+        1.0
+      ],
+      [
+        3.1640899098045328,
+        4.062697998149397,
+        1.0
+      ]
+    ],
+    "file": "pieces/Composants/Capteurs_Distance.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 50.16753053575944,
+    "reference_volume_mm3": 50.16753053575943,
+    "volume_difference_mm3": 7.105427357601002e-15,
+    "relative_volume_difference": 1.4163398679821903e-16,
+    "sampled_surface_distance_mm": 8.296271088900922e-15,
+    "directed_distances_mm": [
+      5.063396036227354e-15,
+      8.296271088900922e-15
+    ],
+    "sample_counts": [
+      586,
+      586
+    ],
+    "worst_points": [
+      [
+        -2.09544606395051,
+        2.450665617641672,
+        1.0
+      ],
+      [
+        3.1640899098045328,
+        4.062697998149397,
+        1.0
+      ]
+    ],
+    "file": "pieces/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 154.37415800734823,
+    "reference_volume_mm3": 154.3741580073482,
+    "volume_difference_mm3": 2.842170943040401e-14,
+    "relative_volume_difference": 1.841092433945527e-16,
+    "sampled_surface_distance_mm": 1.5316163904747523e-06,
+    "directed_distances_mm": [
+      1.5316163904747523e-06,
+      1.2537975887040564e-06
+    ],
+    "sample_counts": [
+      532,
+      535
+    ],
+    "worst_points": [
+      [
+        0.7257116931361558,
+        5.26317184652715e-16,
+        0.1076491606694776
+      ],
+      [
+        0.23165878584045302,
+        -5.674003811477437e-17,
+        0.01075503898623071
+      ]
+    ],
+    "file": "pieces/Composants/Capteurs_Distance_V2/SFH4545.FCStd",
+    "sketches": 4,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 33.05105893013152,
+    "reference_volume_mm3": 33.051058930131525,
+    "volume_difference_mm3": 7.105427357601002e-15,
+    "relative_volume_difference": 2.1498334962947966e-16,
+    "sampled_surface_distance_mm": 1.3175874587669156e-06,
+    "directed_distances_mm": [
+      9.189698340663112e-07,
+      1.3175874587669156e-06
+    ],
+    "sample_counts": [
+      526,
+      529
+    ],
+    "worst_points": [
+      [
+        0.4354270158816935,
+        3.1579031079162906e-16,
+        0.06458949640168665
+      ],
+      [
+        0.27237166217275355,
+        -6.671181685166146e-17,
+        0.024934703001468998
+      ]
+    ],
+    "file": "pieces/Composants/Capteurs_Distance_V2/TEFT4300.FCStd",
+    "sketches": 4,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 123.81818188885035,
+    "reference_volume_mm3": 123.81818188885038,
+    "volume_difference_mm3": 2.842170943040401e-14,
+    "relative_volume_difference": 2.2954390863142964e-16,
+    "sampled_surface_distance_mm": 9.769962616701378e-15,
+    "directed_distances_mm": [
+      9.769962616701378e-15,
+      2.7790248428167776e-15
+    ],
+    "sample_counts": [
+      552,
+      552
+    ],
+    "worst_points": [
+      [
+        2.85,
+        4.99999999999999,
+        0.0
+      ],
+      [
+        -0.24513452569038371,
+        8.290882718103845,
+        0.0
+      ]
+    ],
+    "file": "pieces/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 308.75,
+    "reference_volume_mm3": 308.75,
+    "volume_difference_mm3": 0.0,
+    "relative_volume_difference": 0.0,
+    "sampled_surface_distance_mm": 9.930136612989092e-16,
+    "directed_distances_mm": [
+      9.930136612989092e-16,
+      9.930136612989092e-16
+    ],
+    "sample_counts": [
+      68,
+      68
+    ],
+    "worst_points": [
+      [
+        -4.250000000000004,
+        2.5,
+        0.0
+      ],
+      [
+        -4.2500000000000036,
+        2.5000000000000004,
+        0.0
+      ]
+    ],
+    "file": "pieces/Composants/Connecteur_Moteur.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 208.6360471767204,
+    "reference_volume_mm3": 208.6360471767203,
+    "volume_difference_mm3": 1.1368683772161603e-13,
+    "relative_volume_difference": 5.449050596003683e-16,
+    "sampled_surface_distance_mm": 3.1086244689504383e-15,
+    "directed_distances_mm": [
+      3.1086244689504383e-15,
+      2.7755575615628914e-15
+    ],
+    "sample_counts": [
+      522,
+      522
+    ],
+    "worst_points": [
+      [
+        2.2500000000000004,
+        2.9674999999999994,
+        10.62
+      ],
+      [
+        -0.2500000000000038,
+        -3.3,
+        11.12
+      ]
+    ],
+    "file": "pieces/Composants/Connecteurs/Barette_Connection.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2837.852455867637,
+    "reference_volume_mm3": 2837.8524524892787,
+    "volume_difference_mm3": 3.378358542249771e-06,
+    "relative_volume_difference": 1.1904630698070213e-09,
+    "sampled_surface_distance_mm": 2.3836465068995313e-14,
+    "directed_distances_mm": [
+      2.0245062214497933e-14,
+      2.3836465068995313e-14
+    ],
+    "sample_counts": [
+      484,
+      428
+    ],
+    "worst_points": [
+      [
+        -35.39664603022194,
+        -19.396646030221934,
+        0.5684344701462969
+      ],
+      [
+        -35.994104417915345,
+        -19.994104417915374,
+        1.84654782357219
+      ]
+    ],
+    "file": "pieces/Composants/Lipo_210mAh_30x20x5.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 14.781315526679943,
+    "reference_volume_mm3": 14.781315526679963,
+    "volume_difference_mm3": 1.9539925233402755e-14,
+    "relative_volume_difference": 1.3219341132481478e-15,
+    "sampled_surface_distance_mm": 2.750761580647511e-15,
+    "directed_distances_mm": [
+      2.750761580647511e-15,
+      2.7064176995603496e-15
+    ],
+    "sample_counts": [
+      503,
+      510
+    ],
+    "worst_points": [
+      [
+        0.0,
+        0.8082903768654759,
+        3.699999999999998
+      ],
+      [
+        -0.7000000000000004,
+        0.40414518843273817,
+        3.7000000000000006
+      ]
+    ],
+    "file": "pieces/Composants/M2x3,5.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 158.8449544547205,
+    "reference_volume_mm3": 158.8449544547203,
+    "volume_difference_mm3": 1.9895196601282805e-13,
+    "relative_volume_difference": 1.2524915676156431e-15,
+    "sampled_surface_distance_mm": 1.5316163904747523e-06,
+    "directed_distances_mm": [
+      1.5316163904747523e-06,
+      1.2537975887040564e-06
+    ],
+    "sample_counts": [
+      577,
+      580
+    ],
+    "worst_points": [
+      [
+        0.7257116931361558,
+        5.26317184652715e-16,
+        0.1076491606694776
+      ],
+      [
+        0.23165878584045302,
+        -5.674003811477437e-17,
+        0.01075503898623071
+      ]
+    ],
+    "file": "pieces/Composants/SFH4545.FCStd",
+    "sketches": 4,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 658.1727462832913,
+    "reference_volume_mm3": 658.1727462832912,
+    "volume_difference_mm3": 1.1368683772161603e-13,
+    "relative_volume_difference": 1.7273100164600686e-16,
+    "sampled_surface_distance_mm": 1.4211288389453755e-14,
+    "directed_distances_mm": [
+      1.4211288389453755e-14,
+      1.4210854715202004e-14
+    ],
+    "sample_counts": [
+      384,
+      384
+    ],
+    "worst_points": [
+      [
+        -5.474573567822753,
+        -20.125426432177246,
+        0.9
+      ],
+      [
+        -6.0,
+        -14.9,
+        0.8
+      ]
+    ],
+    "file": "pieces/Composants/SSD1306.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 35.16985537750384,
+    "reference_volume_mm3": 35.169855377503836,
+    "volume_difference_mm3": 7.105427357601002e-15,
+    "relative_volume_difference": 2.0203174796521744e-16,
+    "sampled_surface_distance_mm": 1.3175874587669156e-06,
+    "directed_distances_mm": [
+      9.189698340663112e-07,
+      1.3175874587669156e-06
+    ],
+    "sample_counts": [
+      572,
+      574
+    ],
+    "worst_points": [
+      [
+        0.4354270158816935,
+        3.1579031079162906e-16,
+        0.06458949640168665
+      ],
+      [
+        0.27237166217275355,
+        -6.671181685166146e-17,
+        0.024934703001468998
+      ]
+    ],
+    "file": "pieces/Composants/TEFT4300.FCStd",
+    "sketches": 4,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 431.04647936003494,
+    "reference_volume_mm3": 431.0464777304128,
+    "volume_difference_mm3": 1.6296221474476624e-06,
+    "relative_volume_difference": 3.780618173771202e-09,
+    "sampled_surface_distance_mm": 2.2717029898522556e-07,
+    "directed_distances_mm": [
+      1.994426922967996e-07,
+      2.2717029898522556e-07
+    ],
+    "sample_counts": [
+      502,
+      547
+    ],
+    "worst_points": [
+      [
+        -0.23281973768387673,
+        -0.5159815414030462,
+        2.5470083809153103
+      ],
+      [
+        -0.38094630420068537,
+        0.15391229753205357,
+        2.5721996820170974
+      ]
+    ],
+    "file": "pieces/Composants/TrackBall.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 752.091526930178,
+    "reference_volume_mm3": 752.0583005480419,
+    "volume_difference_mm3": 0.03322638213614937,
+    "relative_volume_difference": 4.418059359485369e-05,
+    "sampled_surface_distance_mm": 9.024748933128e-05,
+    "directed_distances_mm": [
+      3.93037998805506e-05,
+      9.024748933128e-05
+    ],
+    "sample_counts": [
+      513,
+      512
+    ],
+    "worst_points": [
+      [
+        1.4384542705845982,
+        -5.3824656848645125,
+        4.147819813868679
+      ],
+      [
+        -5.957427867165827,
+        0.8842234286895522,
+        5.436673087787849
+      ]
+    ],
+    "file": "pieces/Roue/Jante.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 797.0156695398933,
+    "reference_volume_mm3": 797.0156695398942,
+    "volume_difference_mm3": 9.094947017729282e-13,
+    "relative_volume_difference": 1.1411252457532818e-15,
+    "sampled_surface_distance_mm": 2.8838457124632236e-14,
+    "directed_distances_mm": [
+      2.8838457124632236e-14,
+      2.1463801355982377e-14
+    ],
+    "sample_counts": [
+      502,
+      502
+    ],
+    "worst_points": [
+      [
+        -10.384981771193672,
+        -0.5587070896052049,
+        3.0
+      ],
+      [
+        -5.156587300911,
+        -8.0229540225583,
+        0.0
+      ]
+    ],
+    "file": "pieces/Roue/M0,4_50dents.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 610.6878092554836,
+    "reference_volume_mm3": 610.6878092554834,
+    "volume_difference_mm3": 1.1368683772161603e-13,
+    "relative_volume_difference": 1.8616195705661241e-16,
+    "sampled_surface_distance_mm": 3.835655860784681e-14,
+    "directed_distances_mm": [
+      3.835655860784681e-14,
+      1.799657482411033e-14
+    ],
+    "sample_counts": [
+      507,
+      507
+    ],
+    "worst_points": [
+      [
+        9.450038059791328,
+        4.342439483573226,
+        3.0
+      ],
+      [
+        9.4687247713965,
+        1.140804559748,
+        0.0
+      ]
+    ],
+    "file": "pieces/Roue/M0,4_50dents_J2.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1232.3479079195458,
+    "reference_volume_mm3": 1232.3479079195454,
+    "volume_difference_mm3": 4.547473508864641e-13,
+    "relative_volume_difference": 3.690089040311436e-16,
+    "sampled_surface_distance_mm": 1.054887157200897e-14,
+    "directed_distances_mm": [
+      1.054887157200897e-14,
+      6.772360450213455e-15
+    ],
+    "sample_counts": [
+      528,
+      522
+    ],
+    "worst_points": [
+      [
+        -6.566393054831611,
+        -10.09757343516262,
+        0.7427990951500012
+      ],
+      [
+        10.736636903103424,
+        -0.5358432708523275,
+        8.5
+      ]
+    ],
+    "file": "pieces/Roue/Pneu.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 46.54431496970368,
+    "reference_volume_mm3": 46.544314876161756,
+    "volume_difference_mm3": 9.354192087585034e-08,
+    "relative_volume_difference": 2.009738914940157e-09,
+    "sampled_surface_distance_mm": 2.1413206232596582e-15,
+    "directed_distances_mm": [
+      1.9133237149764433e-15,
+      2.1413206232596582e-15
+    ],
+    "sample_counts": [
+      519,
+      509
+    ],
+    "worst_points": [
+      [
+        -0.8560599171669505,
+        2.547932871907973,
+        0.4279078437118131
+      ],
+      [
+        2.2981333293569612,
+        -1.9283628290595898,
+        2.5
+      ]
+    ],
+    "file": "pieces/Roue/Roulement.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4217.832355818556,
+    "reference_volume_mm3": 4217.832355739147,
+    "volume_difference_mm3": 7.940889190649614e-08,
+    "relative_volume_difference": 1.8826943607288125e-11,
+    "sampled_surface_distance_mm": 1.1487830042361749e-09,
+    "directed_distances_mm": [
+      1.1487830042361749e-09,
+      9.733428944245516e-10
+    ],
+    "sample_counts": [
+      540,
+      541
+    ],
+    "worst_points": [
+      [
+        -4.3301270189222,
+        -2.4999999999999787,
+        14.124462113107773
+      ],
+      [
+        -4.40648658890835,
+        -2.5708513268547137,
+        14.187051759790789
+      ]
+    ],
+    "file": "pieces/Transmission/1717TSR.FCStd",
+    "sketches": 9,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 83.3816712395028,
+    "reference_volume_mm3": 83.38167123950278,
+    "volume_difference_mm3": 1.4210854715202004e-14,
+    "relative_volume_difference": 1.7043139701989433e-16,
+    "sampled_surface_distance_mm": 1.9157377853828352e-14,
+    "directed_distances_mm": [
+      1.9157377853828352e-14,
+      3.552713678800501e-15
+    ],
+    "sample_counts": [
+      521,
+      523
+    ],
+    "worst_points": [
+      [
+        -2.2499999999999996,
+        1.9432923383636506e-14,
+        7.0
+      ],
+      [
+        -1.0,
+        -3.4302489988857658e-15,
+        0.0
+      ]
+    ],
+    "file": "pieces/Transmission/Axe_Roue.FCStd",
+    "sketches": 4,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 126.24510809033187,
+    "reference_volume_mm3": 126.24511514974162,
+    "volume_difference_mm3": 7.05940975365138e-06,
+    "relative_volume_difference": 5.591828044418262e-08,
+    "sampled_surface_distance_mm": 4.793511224691742e-07,
+    "directed_distances_mm": [
+      4.793511224691742e-07,
+      8.521131677685777e-08
+    ],
+    "sample_counts": [
+      524,
+      553
+    ],
+    "worst_points": [
+      [
+        9.567402439003056,
+        3.1074646008708102,
+        1.5
+      ],
+      [
+        9.544195222135592,
+        3.1125555558095157,
+        1.5
+      ]
+    ],
+    "file": "pieces/Transmission/Entretoise_Droite.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 126.24510809033187,
+    "reference_volume_mm3": 126.2451151497416,
+    "volume_difference_mm3": 7.059409725229671e-06,
+    "relative_volume_difference": 5.591828021905147e-08,
+    "sampled_surface_distance_mm": 4.793511220358523e-07,
+    "directed_distances_mm": [
+      4.793511220358523e-07,
+      1.8474124473784524e-13
+    ],
+    "sample_counts": [
+      523,
+      553
+    ],
+    "worst_points": [
+      [
+        9.567402439003056,
+        3.1074646008708102,
+        -2.220446049250313e-16
+      ],
+      [
+        -3.5227636424635116,
+        -7.449999999999119,
+        0.0
+      ]
+    ],
+    "file": "pieces/Transmission/Entretoise_Gauche.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 294.26721829037444,
+    "reference_volume_mm3": 294.26721829037433,
+    "volume_difference_mm3": 1.1368683772161603e-13,
+    "relative_volume_difference": 3.863387786859533e-16,
+    "sampled_surface_distance_mm": 4.085620730620576e-14,
+    "directed_distances_mm": [
+      4.085620730620576e-14,
+      2.1320907500235726e-14
+    ],
+    "sample_counts": [
+      515,
+      512
+    ],
+    "worst_points": [
+      [
+        -12.982183951809459,
+        -3.6803674311554513,
+        1.2
+      ],
+      [
+        12.982183951809418,
+        -3.6803674311554513,
+        1.5
+      ]
+    ],
+    "file": "pieces/Transmission/Intercalaire_Droit.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 294.2672182903745,
+    "reference_volume_mm3": 294.2709247263122,
+    "volume_difference_mm3": 0.0037064359377154688,
+    "relative_volume_difference": 1.259531821284299e-05,
+    "sampled_surface_distance_mm": 0.00031106203616406173,
+    "directed_distances_mm": [
+      0.00031106203616406173,
+      0.0002680474942115514
+    ],
+    "sample_counts": [
+      515,
+      524
+    ],
+    "worst_points": [
+      [
+        2.5118892826218016,
+        -7.015157882918006,
+        1.0
+      ],
+      [
+        1.3447458877261533,
+        -7.334523501689554,
+        1.5
+      ]
+    ],
+    "file": "pieces/Transmission/Intercalaire_Gauche - Copie.FCStd",
+    "sketches": 3,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 88.14595520489371,
+    "reference_volume_mm3": 88.14595520489367,
+    "volume_difference_mm3": 4.263256414560601e-14,
+    "relative_volume_difference": 4.836587685334783e-16,
+    "sampled_surface_distance_mm": 3.382683947658607e-14,
+    "directed_distances_mm": [
+      3.382683947658607e-14,
+      1.852975199503343e-14
+    ],
+    "sample_counts": [
+      521,
+      521
+    ],
+    "worst_points": [
+      [
+        0.8589765158554097,
+        -3.2897050544401325,
+        3.0
+      ],
+      [
+        2.1227576848338,
+        -2.6559178849277,
+        0.0
+      ]
+    ],
+    "file": "pieces/Transmission/M0,4_15dents.FCStd",
+    "sketches": 2,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 466.43270898132994,
+    "reference_volume_mm3": 466.4330492580933,
+    "volume_difference_mm3": 0.0003402767633815529,
+    "relative_volume_difference": 7.295297018999743e-07,
+    "sampled_surface_distance_mm": 3.73998461690118e-05,
+    "directed_distances_mm": [
+      3.73998461690118e-05,
+      2.9630274889064022e-05
+    ],
+    "sample_counts": [
+      521,
+      523
+    ],
+    "worst_points": [
+      [
+        0.8981867974137376,
+        -2.8625513960966456,
+        -1.8e-15
+      ],
+      [
+        -0.29584203168790074,
+        -2.9855239741626574,
+        1.4999999999999996
+      ]
+    ],
+    "file": "pieces/Transmission/Support_Essieu.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  },
+  {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 144.51326206513048,
+    "reference_volume_mm3": 144.51326206513048,
+    "volume_difference_mm3": 0.0,
+    "relative_volume_difference": 0.0,
+    "sampled_surface_distance_mm": 4.710277376051325e-16,
+    "directed_distances_mm": [
+      4.710277376051325e-16,
+      4.710277376051325e-16
+    ],
+    "sample_counts": [
+      267,
+      267
+    ],
+    "worst_points": [
+      [
+        0.7660444431189741,
+        -0.642787609686544,
+        0.0
+      ],
+      [
+        -0.7660444431189741,
+        -0.642787609686544,
+        0.0
+      ]
+    ],
+    "file": "pieces/Transmission/Tige_Renfort.FCStd",
+    "sketches": 1,
+    "errors": [],
+    "accepted": true
+  }
+]

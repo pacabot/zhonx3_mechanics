@@ -1,0 +1,341 @@
+[
+  {
+    "source": "Chassis/Carte_Capteurs_Bas.step",
+    "status": "parametric",
+    "file": "pieces/Chassis/Carte_Capteurs_Bas.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 1.7686841147224186e-07
+  },
+  {
+    "source": "Chassis/Carte_Capteurs_Haut.step",
+    "status": "parametric",
+    "file": "pieces/Chassis/Carte_Capteurs_Haut.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 1.7053025658242404e-13
+  },
+  {
+    "source": "Chassis/Mere_old/Platine_Mere.step",
+    "status": "parametric",
+    "file": "pieces/Chassis/Mere_old/Platine_Mere.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 0.00012025282921968028
+  },
+  {
+    "source": "Chassis/Platine_Mere.step",
+    "status": "parametric",
+    "file": "pieces/Chassis/Platine_Mere.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 1.1192108104296494e-05
+  },
+  {
+    "source": "Chassis/Platine_Superieure.step",
+    "status": "parametric",
+    "file": "pieces/Chassis/Platine_Superieure.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 1.1368683772161603e-13
+  },
+  {
+    "source": "Composants/Capteurs_Distance.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capteurs_Distance.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 7.105427357601002e-15
+  },
+  {
+    "source": "Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capteurs_Distance_V2/Capteurs_Distance_PCB.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 7.105427357601002e-15
+  },
+  {
+    "source": "Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capteurs_Distance_V2/Visiere_Capteurs_Distance.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 2.842170943040401e-14
+  },
+  {
+    "source": "Composants/Connecteur_Moteur.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Connecteur_Moteur.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 0.0
+  },
+  {
+    "source": "Composants/Connecteurs/Barette_Connection.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Connecteurs/Barette_Connection.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 3,
+    "volume_difference_mm3": 1.1368683772161603e-13
+  },
+  {
+    "source": "Composants/SSD1306.step",
+    "status": "parametric",
+    "file": "pieces/Composants/SSD1306.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 3,
+    "volume_difference_mm3": 1.1368683772161603e-13
+  },
+  {
+    "source": "Roue/M0,4_50dents.step",
+    "status": "parametric",
+    "file": "pieces/Roue/M0,4_50dents.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 4.547473508864641e-13
+  },
+  {
+    "source": "Roue/M0,4_50dents_J2.step",
+    "status": "parametric",
+    "file": "pieces/Roue/M0,4_50dents_J2.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 5.684341886080801e-13
+  },
+  {
+    "source": "Roue/Pneu.step",
+    "status": "parametric",
+    "file": "pieces/Roue/Pneu.FCStd",
+    "method": "sketch_revolution",
+    "features": 1,
+    "volume_difference_mm3": 2.2737367544323206e-13
+  },
+  {
+    "source": "Transmission/Axe_Roue.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Axe_Roue.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 4,
+    "volume_difference_mm3": 1.4210854715202004e-14
+  },
+  {
+    "source": "Transmission/Intercalaire_Droit.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Intercalaire_Droit.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 3,
+    "volume_difference_mm3": 2.2737367544323206e-13
+  },
+  {
+    "source": "Roue/Roulement.step",
+    "status": "parametric",
+    "file": "pieces/Roue/Roulement.FCStd",
+    "method": "sketch_revolution",
+    "features": 1,
+    "volume_difference_mm3": 9.354191377042298e-08
+  },
+  {
+    "source": "Transmission/Entretoise_Droite.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Entretoise_Droite.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 3,
+    "volume_difference_mm3": 7.059409696807961e-06
+  },
+  {
+    "source": "Roue/Jante.step",
+    "status": "parametric",
+    "file": "pieces/Roue/Jante.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 0.0332263821367178
+  },
+  {
+    "source": "Transmission/1717TSR.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/1717TSR.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 7.940980140119791e-08
+  },
+  {
+    "source": "Transmission/Support_Essieu.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Support_Essieu.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 0.0003402767633815529
+  },
+  {
+    "source": "Transmission/Entretoise_Gauche.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Entretoise_Gauche.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 7.059409668386252e-06
+  },
+  {
+    "source": "Transmission/Intercalaire_Gauche - Copie.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Intercalaire_Gauche - Copie.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 0.0037064359377154688
+  },
+  {
+    "source": "Transmission/Tige_Renfort.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/Tige_Renfort.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 1,
+    "volume_difference_mm3": 0.0
+  },
+  {
+    "source": "Composants/Lipo_210mAh_30x20x5.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Lipo_210mAh_30x20x5.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 3.378358542249771e-06
+  },
+  {
+    "source": "Composants/SFH4545.step",
+    "status": "parametric",
+    "file": "pieces/Composants/SFH4545.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 1.9895196601282805e-13
+  },
+  {
+    "source": "Composants/TEFT4300.step",
+    "status": "parametric",
+    "file": "pieces/Composants/TEFT4300.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 0.0
+  },
+  {
+    "source": "Composants/Capteurs_Distance_V2/SFH4545.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capteurs_Distance_V2/SFH4545.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 0.0
+  },
+  {
+    "source": "Composants/Capteurs_Distance_V2/TEFT4300.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capteurs_Distance_V2/TEFT4300.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 0.0
+  },
+  {
+    "source": "Transmission/M0,4_15dents.step",
+    "status": "parametric",
+    "file": "pieces/Transmission/M0,4_15dents.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 2,
+    "volume_difference_mm3": 1.4210854715202004e-14
+  },
+  {
+    "source": "Composants/M2x3,5.step",
+    "status": "parametric",
+    "file": "pieces/Composants/M2x3,5.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 1.5987211554602254e-14
+  },
+  {
+    "source": "Composants/TrackBall.step",
+    "status": "parametric",
+    "file": "pieces/Composants/TrackBall.FCStd",
+    "method": "revolution_pockets",
+    "volume_difference_mm3": 1.6296220906042436e-06
+  },
+  {
+    "source": "Composants/Capot_Capteurs_Distance.step",
+    "status": "parametric",
+    "file": "pieces/Composants/Capot_Capteurs_Distance.FCStd",
+    "method": "layered_sketch_pads",
+    "axis": 2,
+    "features": 3,
+    "volume_difference_mm3": 0.0001310954766040595
+  },
+  {
+    "source": "Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/C-63-XX_-07 (Bent for MMS-02-DH).FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/C-63-XX_-08 (Bent for MMS-02-DH).FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/MMS-XX-D-XXX_FORMULA.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/MMT-106-01-X-DH.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/MMT-106-01-X-DH.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/MMT-110-02-X-DH.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/MMT-110-02-X-DH.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/TMS-106-03-X-S-RA.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/TMS-106-03-X-S-RA.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/c-1734507-6-b-3d.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/c-1734507-6-b-3d.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Connecteurs/c-1734606-6-b-3d.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Connecteurs/c-1734606-6-b-3d.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/SQT-104-01-X-D-RA.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/SQT-104-01-X-D-RA.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Composants/Support_SD-card.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Composants/Support_SD-card.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  },
+  {
+    "source": "Transmission/Ecrou_M2.step",
+    "status": "reference_importee",
+    "file": "composants_importes/Transmission/Ecrou_M2.FCStd",
+    "reason": "Geometrie preservee ; reconstruction des fonctions non validee"
+  }
+]
